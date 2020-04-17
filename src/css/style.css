@@ -1,0 +1,21 @@
+.shell, .shellUpper {
+    border: 2px solid black;
+    width: 80%;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.row div {
+flex-grow: 1;
+flex-shrink: 1;
+    height: 40px;
+    border: 1px solid cornflowerblue;
+    text-align: center;
+}
+.pressed {
+    background-color: darkkhaki;
+}
+.changed {
+    display: none;
+}
