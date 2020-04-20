@@ -1,21 +1,14 @@
-.shell, .shellUpper {
-    border: 2px solid black;
-    width: 80%;
+.red {
+    width: max-content;
+    padding: 10px 20px;
+    margin: 10px auto;
+   color: white;
+   background-color: red;
 }
-.row {
-    display: flex;
-    flex-wrap: wrap;
-}
-.row div {
-flex-grow: 1;
-flex-shrink: 1;
-    height: 40px;
-    border: 1px solid cornflowerblue;
-    text-align: center;
-}
-.pressed {
-    background-color: darkkhaki;
-}
-.changed {
-    display: none;
+.orange {
+    width: max-content;
+    padding: 10px 20px;
+    margin: auto;
+    color: red;
+    background-color: orange;
 }
